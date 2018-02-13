@@ -146,3 +146,5 @@ Now we will create a pull request from the GitHub repository
 3. Select the branch that you have been working on
 4. click on create pull request
 5. Accept pull request (OPTIONAL since you might not have the privileges to make pull requests to this branch)
+
+The project would look something like [this](https://github.com/edgaroc30/search-algorithms) 
