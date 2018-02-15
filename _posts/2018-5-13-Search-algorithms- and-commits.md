@@ -1,4 +1,4 @@
-This time I'll be working a bit with two search algorithms depth first and breadth first search and commiting changes to GitHub
+This time I'll be working a bit with two search algorithms depth first and breadth first search and commit changes to GitHub
 
 ### What's the main difference between depth first and breadth first search?
 
