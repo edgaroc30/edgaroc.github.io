@@ -94,4 +94,7 @@ git branch -D nameOfTheBranch  // Deletes the branch
 .Trashes
 ehthumbs.db
 Thumbs.db
+
+# Other stuff #
+.vagrant
 ```
