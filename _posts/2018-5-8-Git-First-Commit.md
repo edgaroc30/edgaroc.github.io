@@ -43,6 +43,9 @@ An example of a .gitignore file of course not everything is needed:
 .Trashes
 ehthumbs.db
 Thumbs.db
+
+# Other stuff #
+.vagrant
 ```
 
 3. Now we can start with our first commit:
