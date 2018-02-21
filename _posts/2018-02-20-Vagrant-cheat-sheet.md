@@ -15,6 +15,9 @@ vagrant init
 # Displays all the running boxes
 vagrant global-status 
 
+# Runs the provision file for that machine
+vagrant provision
+
 # Prunes all the zombie Virtual machines (When there are no running machines in virtualbox but one stills shows up)
 vagrant global-status --prune 
 
