@@ -15,21 +15,28 @@ docker rm my-container
 docker stop my-container
 ```
 
+#### ssh into the container
 
-#### Run a container detach and redirect localport to container port
 ```bash
-docker run -p 80:80 --detach --name=my-container --env="SOME_ENV_VAR=value" container-name
+sudo docker exec -it NameOfContainer /bin/bash
 ```
 
-#### Run a container and redirect localport to container port
+#### Tail logs
+
 ```bash
-docker run -p 80:80 --name=my-container --env="SOME_ENV_VAR=value" container-name
+sudo docker logs -f gitlab
 ```
 
-#### View container logs
+#### Copy stuff from the container to host
+
 ```bash
-docker logs my-container
+docker cp CONTAINER:/container/path/to /local/host/path
 ```
+
+#### Docker statust - RAM, CPU, Network usage
+
+```bash
+docker stats [optionalContainer]
 
 #### Inspect container
 ```bash
